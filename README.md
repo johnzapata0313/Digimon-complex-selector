@@ -1,22 +1,5 @@
-# 📊 Project: Complex API 
+# Digimon Complex Selector
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+![9120027A-5733-4128-BB53-B8AEAA5BFA78](https://github.com/user-attachments/assets/b57066a5-3b92-405d-be04-a9b833cbb524)
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Digimon API with the YouTube API. Users click a button to generate a random Digimon from the complete roster, which dynamically displays the Digimon's name, image, and level on the page. The app then automatically searches YouTube for battle footage of that specific Digimon and embeds the video directly into the interface, allowing users to see their randomly selected Digimon in action. Built with vanilla JavaScript using asynchronous fetch requests, the project handles API calls sequentially—first retrieving a random Digimon from the Digimon API, then using that data to query the YouTube API for relevant video content. The responsive design features a nostalgic Digimon World-inspired background with styled cards and an anime-themed font to create an immersive experience for fans.
